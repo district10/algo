@@ -6,4 +6,4 @@ edc:
 
 gh: github
 github:
-	git add -A && git commit -m "`date +'%H:%M:%S @ %b %d, %Y')` - `uname`" && git push
+	git add -A && git commit -m "`date`" && git push
