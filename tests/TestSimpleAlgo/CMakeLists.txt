@@ -1,0 +1,5 @@
+project( TestSimpleAlgo )
+add_executable( ${PROJECT_NAME} main.cpp )
+target_link_libraries( ${PROJECT_NAME} SimpleAlgo )
+set_target_properties( ${PROJECT_NAME} PROPERTIES FOLDER Tests )
+install( TARGETS ${PROJECT_NAME} DESTINATION bin )
