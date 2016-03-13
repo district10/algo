@@ -32,7 +32,7 @@ void test_algo_strlen()
     std::cout << "testing strlen...\n";
 #define TEST_STRLEN( buf, len ) \
     assert( algo::strlen(buf) == len && buf ); \
-    printf( "\tlen of \"%s\":\t\t%d.\n", buf, algo::strlen(buf) ); \
+    printf( "\tlen of \"%s\":\t\t%d.\n", buf, (int)algo::strlen(buf) ); \
 
     TEST_STRLEN( "1234567890", 10 )
     TEST_STRLEN( "123",         3 )
