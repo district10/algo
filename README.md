@@ -2,7 +2,9 @@
 
 重复造轮子。
 
-```plain
+## CMakeLists.txt Notes
+
+```cmake
 cmake_minimum_required( VERSION 2.6 )
 project( Algo )
 
@@ -27,7 +29,11 @@ target_link_libraries( ${PROJECT_NAME} ${OpenCV_LIBS} )
 
 ## Acknowledgements
 
-All these kind of disclaimers moved here. {I readly don't like simple code burried beneath them ;)}
+* [Google Test: 3rdParty/gmock/](https://github.com/google/googletest)
+* [cppformat: 3rdParty/cppformat/](https://github.com/cppformat/cppformat)
+
+All these kind of disclaimers moved here. {I readly don't like simple code
+burried beneath them ;)}
 
 ```plain
 // Copyright 2006, Google Inc.
