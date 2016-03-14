@@ -2,7 +2,7 @@ all:
 
 gh: github
 github:
-	git add -A && git commit -m "`date`" && git push
+	git add -A && git commit -m "`date` - `uname`" && git push
 
 diff:
 	git diff

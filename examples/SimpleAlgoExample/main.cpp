@@ -2,7 +2,7 @@
 #include <assert.h>
 #include <string.h>
 
-#include <SimpleAlgo/SimpleAlgo.h>
+#include <algo/SimpleAlgo.h>
 
 void test_algo_kmp_pmt();
 

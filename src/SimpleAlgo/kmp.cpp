@@ -1,4 +1,4 @@
-#include "SimpleAlgo.h"
+#include <algo/SimpleAlgo.h>
 
 #include <assert.h>
 #include <stdio.h>

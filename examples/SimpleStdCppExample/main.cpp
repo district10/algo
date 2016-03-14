@@ -1,5 +1,5 @@
 #include <AlgoConfigs.h>
-#include <SimpleStdCpp/SimpleStdCpp.h>
+#include <algo/SimpleStdCpp.h>
 #include <3rdParty/cppformat/format.h>
 
 #include <iostream>

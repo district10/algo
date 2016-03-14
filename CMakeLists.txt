@@ -53,12 +53,7 @@ endif( OPENMP_FOUND )
 
 include_directories( ${CMAKE_SOURCE_DIR} )
 include_directories( ${CMAKE_BINARY_DIR} )
-include_directories( ${CMAKE_SOURCE_DIR}/src )
-include_directories( ${CMAKE_BINARY_DIR}/src )
-#include_directories( ${CMAKE_SOURCE_DIR}/src/SimpleAlgo )
-#include_directories( ${CMAKE_BINARY_DIR}/src/SimpleAlgo )
-#include_directories( ${CMAKE_SOURCE_DIR}/src/SimpleStdCpp )
-#include_directories( ${CMAKE_BINARY_DIR}/src/SimpleStdCpp )
+include_directories( ${CMAKE_SOURCE_DIR}/include )
 
 configure_file( 
     "${PROJECT_SOURCE_DIR}/AlgoConfigs.h.in"
