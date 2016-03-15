@@ -56,7 +56,7 @@ $ make
 detailed:
 
 ```bash
-➜  git  git clone git@github.com:district10/algo.git                            
+➜  git  git clone git@github.com:district10/algo.git
 Cloning into 'algo'...
 remote: Counting objects: 130, done.
 remote: Compressing objects: 100% (97/97), done.
@@ -64,9 +64,14 @@ remote: Total 130 (delta 37), reused 117 (delta 24), pack-reused 0
 Receiving objects: 100% (130/130), 380.51 KiB | 248.00 KiB/s, done.
 Resolving deltas: 100% (37/37), done.
 Checking connectivity... done.
+
+
 ➜  git  cd algo
-➜  algo git:(master) mkdir build        
-➜  algo git:(master) cd build
+
+
+➜  algo git:(master) mkdir build && cd build
+
+
 ➜  build git:(master) cmake -DCMAKE_BUILD_TYPE=Debug ..
 -- The C compiler identification is GNU 5.2.1
 -- The CXX compiler identification is GNU 5.2.1
@@ -147,7 +152,9 @@ Running main() from gtest_main.cc
 [----------] 2 tests from SquareRootTest
 [ RUN      ] SquareRootTest.ZeroAndNegativeNos
 
-[WARNING] /home/tzx/git/algo/3rdParty/gmock/gmock-gtest-all.cc:7319:: Death tests use fork(), which is unsafe particularly in a threaded context. For this test, Google Test couldn't detect the number of threads.
+[WARNING] /home/tzx/git/algo/3rdParty/gmock/gmock-gtest-all.cc:7319:: Death
+    tests use fork(), which is unsafe particularly in a threaded context. For this
+    test, Google Test couldn't detect the number of threads.
 /home/tzx/git/algo/tests/Test3rdParty/test-gtest.cpp:40: Failure
 Death test: square_root(-22.0)
     Result: died but not with expected exit code:
