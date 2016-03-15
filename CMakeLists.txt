@@ -59,6 +59,19 @@ configure_file(
     "${PROJECT_SOURCE_DIR}/AlgoConfigs.h.in"
     "${PROJECT_BINARY_DIR}/AlgoConfigs.h" )
 
+# Setup output directories
+set( LIBRARY_OUTPUT_PATH
+	${PROJECT_BINARY_DIR}/bin
+	CACHE
+	PATH
+	"Single directory for all libraries" )
+
+set( EXECUTABLE_OUTPUT_PATH
+	${PROJECT_BINARY_DIR}/bin
+	CACHE
+	PATH
+	"Single directory for all executables" )
+
 add_subdirectory( 3rdParty )
 add_subdirectory( src )
 add_subdirectory( tests )
