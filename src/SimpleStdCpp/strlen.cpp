@@ -8,7 +8,7 @@ size_t algo::strlen( const char *str )
 }
 
 // alternative 1
-size_t also::strlen_alt1( const char *str )
+size_t algo::strlen_alt1( const char *str )
 {
     size_t i = 0;
     while(*str++) { ++i; }
