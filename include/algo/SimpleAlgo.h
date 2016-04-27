@@ -4,6 +4,8 @@
 namespace algo {
 
 int kmp( const char *text, const char *pattern );
+int boyer_moore(const char *text, const char *pattern);
+int rabin_karp(const char *text, const char *pattern);
 
 } // end of namespace algo
 

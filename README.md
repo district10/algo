@@ -10,6 +10,8 @@
 
 * [cppformat: 3rdParty/cppformat/](https://github.com/cppformat/cppformat)
 * [Google Test: 3rdParty/gmock/](https://github.com/google/googletest)
+* [soulmachine/leetcode: LeetCode题解，151道题完整版](https://github.com/soulmachine/leetcode)
+* [soulmachine/acm-cheat-sheet: Acm Cheat Sheet](https://github.com/soulmachine/acm-cheat-sheet)
 
 All copyright claims moved here:
 
@@ -93,7 +95,7 @@ Checking connectivity... done.
 -- Try OpenMP CXX flag = [-fopenmp]
 -- Performing Test OpenMP_FLAG_DETECTED
 -- Performing Test OpenMP_FLAG_DETECTED - Success
--- Found OpenMP: -fopenmp  
+-- Found OpenMP: -fopenmp
 -- Looking for include file pthread.h
 -- Looking for include file pthread.h - found
 -- Looking for pthread_create
@@ -102,7 +104,7 @@ Checking connectivity... done.
 -- Looking for pthread_create in pthreads - not found
 -- Looking for pthread_create in pthread
 -- Looking for pthread_create in pthread - found
--- Found Threads: TRUE  
+-- Found Threads: TRUE
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/tzx/git/algo/build
@@ -140,7 +142,7 @@ Linking CXX executable TestAlgo
 [100%] Built target TestAlgo
 
 
-➜  build git:(master) ./tests/Test3rdParty/Test3rdParty 
+➜  build git:(master) ./tests/Test3rdParty/Test3rdParty
 Running main() from gtest_main.cc
 [==========] Running 4 tests from 3 test cases.
 [----------] Global test environment set-up.
@@ -161,7 +163,7 @@ Death test: square_root(-22.0)
             Exited with exit status 255
 Actual msg:
 [  DEATH   ] Error: Negative Input
-[  DEATH   ] 
+[  DEATH   ]
 [  FAILED  ] SquareRootTest.ZeroAndNegativeNos (2 ms)
 [ RUN      ] SquareRootTest.PositiveNos
 [       OK ] SquareRootTest.PositiveNos (0 ms)
